@@ -74,5 +74,5 @@ function readEBook() {}
  *	Test method to determine functionality of conversion method
 */
 function testConversion() {
-	convert('pdf', 'epub');
+	convert('pdf', 'sample.pdf', 'epub', 'sample.epub');
 }
